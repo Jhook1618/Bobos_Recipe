@@ -6,7 +6,7 @@
 
 ### >>> source .venv/bin/activate
 
-### >>> git clone https://github.com/JayMoh/bobo_beans.git
+### >>> git clone https://github.com/Jhook1618/Bobos_Recipe.git
 
 ### >>> cd bobo_beans
 
