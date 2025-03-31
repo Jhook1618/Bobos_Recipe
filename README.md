@@ -6,7 +6,7 @@
 
 ## Run this command in your terminal
 
-### `>>> touch env_init.sh && chmod +x env_init.sh && vi env_init.sh`
+### >>> `touch env_init.sh && chmod +x env_init.sh && vi env_init.sh`
 
 ## Copy the content of `env_init.sh` from the `env_init` directory to your file and run the command below
 
