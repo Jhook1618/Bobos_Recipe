@@ -1,8 +1,11 @@
+#!/bin/env bash
+
+
 # <== Bobo's Recipe For Coconut Infused Beans ==>
 
 ## How to install the Script
 
-### First Check the *env_init* directory and you'll find a file that will assist you in installing the directory of where the project will be cloned and start a virtual environment for you
+### You need to copy the code in your below in your clipboard so that you can copy it in your open file
 
 Run this command in your terminal:
 
