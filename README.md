@@ -27,10 +27,18 @@ git clone https://github.com/Jhook1618/Bobos_Recipe.git
 ```bash
 cd Bobos_Recipe
 ```
+### Install the dependencies
 
 ```bash
 pip install -r requirement.txt
 ```
+### Install toilet
+
+```bash
+sudo apt install toilet -y
+```
+
+### Run the script
 
 ```bash
 ./main.py
