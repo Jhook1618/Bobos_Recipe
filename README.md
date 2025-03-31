@@ -18,7 +18,7 @@
 
 ### >>> `git clone https://github.com/Jhook1618/Bobos_Recipe.git`
 
-### >>> `cd bobo_beans`
+### >>> `cd Bobos_Recipe`
 
 ### >>> `pip install -r requirement.txt`
 
