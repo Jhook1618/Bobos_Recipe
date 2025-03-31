@@ -5,6 +5,11 @@
 ### First Check the *env_init* directory and you'll find a file that will assist you in installing the directory of where the project will be cloned and start a virtual environment for you
 
 Run this command in your terminal:
+
+```bash
+echo -e "\n🎉 All set! You can start coding in '$1'"
+```
+
 ```bash
 #!/bin/bash
 
@@ -104,7 +109,6 @@ else
     echo "ℹ️ No requirements.txt found. Skipping dependency installation."
 fi
 
-echo -e "\n🎉 All set! You can start coding in '$1'"
 ```
 
 ```bash
