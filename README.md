@@ -1,6 +1,6 @@
 # <======== User Note ========>
 
-`### Recipe For Cooking Coconut Infused Beans ###`
+`# Recipe For Cooking Coconut Infused Beans #`
 
 # How to install the Script
 
