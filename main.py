@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-import os
+# import os
 import subprocess
 import pyfiglet
 import time
@@ -16,7 +16,7 @@ def check_dependencies():
         import colorama
     except ImportError:
         print(Fore.RED + "Missing required modules. Installing them now...")
-        os.system("pip install pyfiglet colorama")
+        subprocess.run(["pip", "install", "pyfiglet", "colorama"], check=True)
         print(Fore.GREEN + "Dependencies installed. Please re-run the script.")
         exit()
 
@@ -24,7 +24,7 @@ def check_dependencies():
 check_dependencies()
 
 # Clear the terminal
-os.system("clear")  
+subprocess.run(["clear"], check=True)
 
 # Print banner using figlet
 banner = pyfiglet.figlet_format("Bobos Recipe", font="big")
