@@ -1,6 +1,3 @@
-#!/bin/env bash
-
-
 # <== Bobo's Recipe For Coconut Infused Beans ==>
 
 ## How to install the Script
