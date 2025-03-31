@@ -22,7 +22,7 @@
 
 ### >>> `pip install -r requirement.txt`
 
-### >>> 
+### >>> `sudo apt install toilet -y`
 
 ### >>> `./main.py`
 
