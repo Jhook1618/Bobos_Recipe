@@ -113,20 +113,25 @@ fi
 
 echo -e "\n🎉 All set! You can start coding in '$1'"
 
-```
+echo ""
 
+```
+`Run the env_init.sh script to create a virtual environment`
 
 ```bash
 ./env_init.sh Bobos_Recipe && cd Bobos_Recipe
 ```
+`Activate the virtual environment`
 
 ```bash
 source .venv/bin/activate
 ```
+`Clone the repository`
 
 ```bash
 git clone https://github.com/Jhook1618/Bobos_Recipe.git
 ```
+`Change directory to the cloned repository`
 
 ```bash
 cd Bobos_Recipe
