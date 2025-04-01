@@ -136,7 +136,7 @@ cd Bobos_Recipe
 ```bash
 pip install -r requirement.txt
 ```
-Install toilet
+`Install toilet`
 
 ```bash
 sudo apt install toilet -y
