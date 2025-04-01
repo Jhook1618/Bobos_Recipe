@@ -117,7 +117,7 @@ echo -e "\n🎉 All set! You can start coding in '$1'"
 
 
 ```bash
-./env_init.sh [Name_of_Directory] && cd [Name_of_Directory]
+./env_init.sh Bobos_Recipe && cd Bobos_Recipe
 ```
 
 ```bash
