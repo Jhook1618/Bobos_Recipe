@@ -4,11 +4,13 @@
 
 ### You need to copy the code in your below in your clipboard so that you can copy it in your open file
 
-Run this command in your terminal:
+`Run this command in your terminal:`
+
 
 ```bash
-echo -e "\n🎉 All set! You can start coding in '$1'"
+touch env_init.sh && chmod +x env_init.sh && vi env_init.sh
 ```
+`Copy the code below into the file:`
 
 ```bash
 #!/bin/bash
@@ -26,7 +28,7 @@ echo -e "\e[0m"
 # Detect OS
 OS_TYPE="Unknown"
 INSTALL_CMD=""
-
+https://www.fckkbx.com/feed.html
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
     OS_TYPE="Ubuntu/Linux"
     INSTALL_CMD="sudo apt install -y"
@@ -109,13 +111,10 @@ else
     echo "ℹ️ No requirements.txt found. Skipping dependency installation."
 fi
 
+echo -e "\n🎉 All set! You can start coding in '$1'"
+
 ```
 
-```bash
-touch env_init.sh && chmod +x env_init.sh && vi env_init.sh
-```
-
-Copy the code below into the file:
 
 ```bash
 ./env_init.sh [Name_of_Directory] && cd [Name_of_Directory]
@@ -132,7 +131,7 @@ git clone https://github.com/Jhook1618/Bobos_Recipe.git
 ```bash
 cd Bobos_Recipe
 ```
-Install the dependencies
+`Install the dependencies`
 
 ```bash
 pip install -r requirement.txt
@@ -143,7 +142,7 @@ Install toilet
 sudo apt install toilet -y
 ```
 
-Run the script
+`Run the script`
 
 ```bash
 ./main.py
